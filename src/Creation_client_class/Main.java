@@ -1,4 +1,4 @@
-package com.company;
+package Creation_client_class;
 
 public class Main {
 
