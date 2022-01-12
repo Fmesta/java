@@ -6,6 +6,18 @@ public class Client {
     private char First_Name;
     private int client_number;
 
+    public char getName() {
+        return Name;
+    }
+
+    public char getFirst_Name() {
+        return First_Name;
+    }
+
+    public int getClient_number() {
+        return client_number;
+    }
+
     public void setName(char name) {
         Name = name;
     }
@@ -19,20 +31,11 @@ public class Client {
     }
 
 
-    public char getName() {
-        return Name;
-    }
-
-    public char getFirst_Name() {
-        return First_Name;
-    }
-
-    public int getClient_number() {
-        return client_number;
-    }
 
 
-    static void constructor(char Last_Name, char First_Name, int Customer_id) {
+
+
+    static void constructor(char Name, char First_Name, int client_number) {
 
     }
 
