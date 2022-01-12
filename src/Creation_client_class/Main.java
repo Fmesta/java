@@ -4,8 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
         //Array
-        Client[] rvf =
 
+     Client.constructor("martin", "Dupont", 25);
+     Client.constructor("denon", "michel", 26);
 
     }
 }

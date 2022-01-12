@@ -35,8 +35,15 @@ public class Client {
 
 
 
-    static void constructor(char Name, char First_Name, int client_number) {
+    static void constructor(String last_name, String first_Name, int client_number) {
+        System.out.print(last_name + first_Name + client_number);
+    }
 
+    Client nouveau = new Client();
+
+
+    public String toString() {
+        return getName() +" "+ getFirst_Name() +" "+getClient_number();
     }
 
 }
