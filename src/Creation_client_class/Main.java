@@ -7,8 +7,10 @@ public class Main {
     public static void main(String[] args) {
         //Array
 
-        test_set(5);
+        test_set(8);
+
     }
+
 
     private static void test_set(int j) {
         for (int i = 0; i < j; ++i) {
