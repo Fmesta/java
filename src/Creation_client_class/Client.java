@@ -1,16 +1,18 @@
 package Creation_client_class;
 
+import java.util.Locale;
+
 public class Client {
 
-    private char Name;
-    private char First_Name;
+    private String Name;
+    private String First_Name;
     private int client_number;
 
-    public char getName() {
+    public String getName() {
         return Name;
     }
 
-    public char getFirst_Name() {
+    public String getFirst_Name() {
         return First_Name;
     }
 
@@ -18,11 +20,11 @@ public class Client {
         return client_number;
     }
 
-    public void setName(char name) {
+    public void setName(String name) {
         Name = name;
     }
 
-    public void setFirst_Name(char first_Name) {
+    public void setFirst_Name(String first_Name) {
         First_Name = first_Name;
     }
 
@@ -32,15 +34,21 @@ public class Client {
 
 
 
+      public Client(String first_name, String last_name , int customer_number) {
 
 
+        this.Name = last_name;
+        this.First_Name = first_name;
+        this.client_number = customer_number;
 
-    static void constructor(String last_name, String first_Name, int client_number) {
-        System.out.print(last_name + first_Name + client_number);
     }
 
-    Client nouveau = new Client();
+    //public Client() {
+      //  client_number = client_number;
+        //First_Name = First_Name;
+        //Name = Name;
 
+  //  }
 
     public String toString() {
         return getName() +" "+ getFirst_Name() +" "+getClient_number();
