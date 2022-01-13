@@ -44,12 +44,6 @@ public class Client {
 
     }
 
-    //public Client() {
-      //  client_number = client_number;
-        //First_Name = First_Name;
-        //Name = Name;
-
-  //  }
 
     public String toString() {
         return getName() +" "+ getFirst_Name() +" "+getClient_number();
