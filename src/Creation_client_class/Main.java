@@ -7,7 +7,8 @@ public class Main {
     public static void main(String[] args) {
         //Array
 
-        test_set(8);
+        test_set(5);
+
 
     }
 
