@@ -8,7 +8,10 @@ public class Main {
         //Array
 
         test_set(5);
+
+
     }
+
 
     private static void test_set(int j) {
         for (int i = 0; i < j; ++i) {
