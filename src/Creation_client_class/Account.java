@@ -2,6 +2,7 @@ package Creation_client_class;
 
  abstract class Account {
 
+
     public String getLabel() {
         return Label;
     }
