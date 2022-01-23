@@ -8,7 +8,7 @@ public class Main {
         //Array
 
         test_set(5);
-
+        test_set_account(7);
 
     }
 
@@ -18,9 +18,15 @@ public class Main {
             Client[] clients = new Client[]{new Client("name" + i, "firstname" + i, 47 + i)};
             System.out.println(Arrays.toString(clients));
         }
-
-
     }
+
+    private static void test_set_account(int j) {
+        for (int i = 0; i < j; ++i) {
+            Account[] account = new Account[]{new Account("Label"+i,new Client("name","Last_name", 41+ i), 45+i)};
+            System.out.println(Arrays.toString(account));
+        }
+    }
+
 
 }
 
