@@ -2,7 +2,6 @@ package Creation_client_class;
 
  public class Account {
 
-
     public String getLabel() {
         return Label;
     }
