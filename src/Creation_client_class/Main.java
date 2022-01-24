@@ -13,6 +13,7 @@ public class Main {
     }
 
 
+
     private static void test_set(int j) {
         for (int i = 0; i < j; ++i) {
             Client[] clients = new Client[]{new Client("name" + i, "firstname" + i, 47 + i)};
