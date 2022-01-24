@@ -38,6 +38,7 @@ public class Client {
 
       public Client(String first_name, String last_name , int customer_number) {
 
+
         this.Name = last_name;
         this.First_Name = first_name;
         this.client_number = customer_number;
